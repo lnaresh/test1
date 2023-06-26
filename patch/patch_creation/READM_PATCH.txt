@@ -1,0 +1,10 @@
+#diff -u original_file original_modified > <name.patch> 
+now check this one with already that same original file is created in  PATCH_APPL directory 
+now apply the created patch to original file to get new modiification file
+
+NOTE :original file name should be same
+
+#patch original file  patch file
+
+// with backup we can create
+patch -b <../patch_creation/myfile.patch patching file myfile.c
