@@ -1,0 +1,30 @@
+character device driver
+
+1.the structure of cdev device is cdev_t
+2.cdd number
+	one type of Major driver--drives how many minor devices.
+
+	2.1 static/manual
+	2.2 dyanmic
+	2.3 class driver
+major number;12
+minor number;20
+3.
+fops:                            file operations are required
+
+apis requires
+
+cdev_add
+
+cdev_register
+
+cdev_unregister
+
+cdev_remove
+
+see kernel/documentation/devicedriver/character
+
+ls -l /dev
+
+
+
